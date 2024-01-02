@@ -68,54 +68,145 @@ const resetGame = () => {
 
 const wordList = [
     {
-        number: 1,
+
         word: "camelcase",
         hint: "Is a naming convention used when a variable starts with a lowercase letter."
     },
     {
-        number: 2,
+
         word: "pascalcase",
         hint: "Is a naming convention used when a variable starts with an uppercase letter."
     },
     {
-        number: 3,
+
         word: "namespace",
         hint: "Is used to organize your code, and it is a container for classes and other namespaces."
     },
     {
-        number: 4,
+
         word: "curly",
         hint: "The _____ braces mark the beginning and the end of a block of code."
     },
     {
-        number: 5,
+
         word: "class",
         hint: "Is a container for data and methods, which brings functionality to your program."
     },
     {
-        number: 6,
+
         word: "console",
         hint: "Is a class of the System namespace, which has a WriteLine() method that is used to output/input print text."
     },
     {
-        number: 7,
+
         word: "semicolon",
         hint: "Every C# statement ends with a _________"
     },
     {
-        number: 8,
+
         word: "comment",
         hint: "Can be used to explain C# code, and to make it more readable."
     },
     {
-        number: 9,
+
         word: "single",
         hint: "_____-line comments start with two forward slashes."
     },
     {
-        number: 10,
+
         word: "multi",
         hint: "_____-line comments start with /* and end with */."
+    },
+    {
+        word: "boolean",
+        hint: "A variable used only for true or false data"
+    },
+    {
+        word: "string",
+        hint: "A variable used for storing a whole sentence or a single word"
+    },
+    {
+        word: "character",
+        hint: "A variable used for storing single symbols/letters"
+    },
+    {
+        word: "float",
+        hint: "A variable used for storing numbers with less decimal numbers where it allows 7 significant digits of precision."
+    },
+    {
+        word: "double",
+        hint: "A variable used for storing numbers with more decimal numbers where it allows 15 to 17 significant digits of precision."
+    },
+    {
+        word: "integer",
+        hint: "A variable used for storing whole numbers."
+    },
+    
+    {
+        word: "variables",
+        hint: "It is used to store data types."
+    },
+    
+    {
+        word: "unique",
+        hint: "All C# variables must be identified with ______ names."
+    },
+    
+    {
+        word: "reserved",
+        hint: "_______ words like C# keywords such as int or double cannot be used as naming variables."
+    },
+    
+    {
+        word: "lowercase",
+        hint: "names should start with a __________ letter and it cannot contain whitespace."
+    },
+    {
+        word: "comparison",
+        hint: "Operators that are used to compare two values or variables."
+    },
+    
+    {
+        word: "logical",
+        hint: "Operators that ure used to determine the logic between variables or values."
+    },
+     {
+        word: "case",
+        hint: "The value of the expression in switch is compared with the values of each ____"
+    },
+    
+    {
+        word: "break",
+        hint: "When C# reaches a _____ keyword, it breaks out of the switch block."
+    },
+    
+    {
+        word: "default",
+        hint: "The _______ keyword is optional and specifies some code to run if there is no case match."
+    },
+    
+    {
+        word: "switch",
+        hint: "This statement allows us to execute one code block among many alternatives."
+    },
+    
+    {
+        word: "expression",
+        hint: "Is evaluated once and compared with the values of each case label."
+    },
+     {
+        word: "loop",
+        hint: "Can execute block of code as long as a specified condition is reached."
+    },
+    
+    {
+        word: "while",
+        hint: "The _____ loop loops through a block of code as long as a specified condition is true."
+    },
+    
+    {
+        word: "for",
+        hint: "When you know exactly how many times you want to loop through a block of code, use the ___ loop instes of while loop."
     },
 ];
 
